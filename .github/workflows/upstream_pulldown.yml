@@ -2,7 +2,7 @@ name: CSSEGISandData/COVID-19 -> this/main
 
 on:
   schedule:
-    - cron: '0 4 * * *'
+    - cron: '* */3 * * *'
 
   workflow_dispatch:  # click the button on Github repo!
 
